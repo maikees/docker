@@ -20,3 +20,5 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
       && docker-php-ext-configure mssql \
       && chmod 755 /var/www/html -R \
       && chown www-data:www-data /var/www/html
+RUN a2enmod rewrite
+RUN docker-php-ext-install mysql

@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+  cemiterio:
+    image: maikees/php56-mssql:latest
+    container_name: php56-mssql
+    ports:
+      - "81:80"
+    volumes:
+      - /mnt/docker/cemiterio/www:/var/www/html
