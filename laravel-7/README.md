@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://mocsolucoes.com.br/logo" width="200" align="center" />
+    <img src="https://mocsolucoes.com.br/img/web_logo.png" width="200" align="center" />
 </p>
 
 ## About Laravel
